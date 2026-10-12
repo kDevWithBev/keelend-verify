@@ -1,0 +1,11 @@
+{
+  "name": "keelend-verify",
+  "version": "0.1.0",
+  "description": "Read-only verifier for the KeeLend signed loan log",
+  "type": "module",
+  "bin": { "keelend-verify": "verify.mjs" },
+  "scripts": { "test": "node --test test/" },
+  "engines": { "node": ">=20" },
+  "optionalDependencies": { "@keetanetwork/keetanet-client": "0.18.7" },
+  "license": "MIT"
+}
